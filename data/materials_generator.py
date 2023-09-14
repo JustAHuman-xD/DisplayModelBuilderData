@@ -99,6 +99,29 @@ def generate_materials():
         if (not filepath in files_to_save and os.path.exists(filepath)):
             os.remove(filepath)
 
+    # Handle any special cases
+    with open("data/special_cases.json", "r") as file:
+        special_cases = json.load(file)
+        remappings = special_cases["remappings"]
+        removals = special_cases["removals"]
+
+        # Handle Remappings
+        for old_key in remappings:
+            if (not old_key in new_materials):
+                continue
+
+            new_key = remappings[old_key]
+            new_materials[new_key] = new_materials[old_key]
+            new_materials.pop(old_key)
+
+        # Handle Removals
+        for key in removals:
+            if (not key in new_materials):
+                continue
+
+            new_materials.pop(key)
+    
+
     # Actually write to materials.json
     with open("data/materials.json", "w") as file:
         file.write(json.dumps(new_materials, indent=4))

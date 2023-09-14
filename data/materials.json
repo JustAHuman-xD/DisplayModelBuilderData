@@ -3,10 +3,6 @@
         "data/textures/acacia_log_top.png",
         "data/textures/acacia_log.png"
     ],
-    "acacia_log_horizontal": [
-        "data/textures/acacia_log_top.png",
-        "data/textures/acacia_log.png"
-    ],
     "acacia_planks": [
         "data/textures/acacia_planks.png"
     ],
@@ -31,18 +27,6 @@
         "data/textures/bamboo_block_top.png",
         "data/textures/bamboo_block.png"
     ],
-    "bamboo_block_x": [
-        "data/textures/bamboo_block_top.png",
-        "data/textures/bamboo_block.png"
-    ],
-    "bamboo_block_y": [
-        "data/textures/bamboo_block_top.png",
-        "data/textures/bamboo_block.png"
-    ],
-    "bamboo_block_z": [
-        "data/textures/bamboo_block_top.png",
-        "data/textures/bamboo_block.png"
-    ],
     "bamboo_mosaic": [
         "data/textures/bamboo_mosaic.png"
     ],
@@ -54,11 +38,6 @@
         "data/textures/barrel_side.png",
         "data/textures/barrel_top.png"
     ],
-    "barrel_open": [
-        "data/textures/barrel_bottom.png",
-        "data/textures/barrel_side.png",
-        "data/textures/barrel_top_open.png"
-    ],
     "basalt": [
         "data/textures/basalt_top.png",
         "data/textures/basalt_side.png"
@@ -66,14 +45,7 @@
     "bedrock": [
         "data/textures/bedrock.png"
     ],
-    "bedrock_mirrored": [
-        "data/textures/bedrock.png"
-    ],
     "birch_log": [
-        "data/textures/birch_log_top.png",
-        "data/textures/birch_log.png"
-    ],
-    "birch_log_horizontal": [
         "data/textures/birch_log_top.png",
         "data/textures/birch_log.png"
     ],
@@ -172,18 +144,6 @@
         "data/textures/cartography_table_side2.png"
     ],
     "cherry_log": [
-        "data/textures/cherry_log_top.png",
-        "data/textures/cherry_log.png"
-    ],
-    "cherry_log_x": [
-        "data/textures/cherry_log_top.png",
-        "data/textures/cherry_log.png"
-    ],
-    "cherry_log_y": [
-        "data/textures/cherry_log_top.png",
-        "data/textures/cherry_log.png"
-    ],
-    "cherry_log_z": [
         "data/textures/cherry_log_top.png",
         "data/textures/cherry_log.png"
     ],
@@ -315,10 +275,6 @@
         "data/textures/dark_oak_log_top.png",
         "data/textures/dark_oak_log.png"
     ],
-    "dark_oak_log_horizontal": [
-        "data/textures/dark_oak_log_top.png",
-        "data/textures/dark_oak_log.png"
-    ],
     "dark_oak_planks": [
         "data/textures/dark_oak_planks.png"
     ],
@@ -430,18 +386,6 @@
     "flowering_azalea_leaves": [
         "data/textures/flowering_azalea_leaves.png"
     ],
-    "frosted_ice_0": [
-        "data/textures/frosted_ice_0.png"
-    ],
-    "frosted_ice_1": [
-        "data/textures/frosted_ice_1.png"
-    ],
-    "frosted_ice_2": [
-        "data/textures/frosted_ice_2.png"
-    ],
-    "frosted_ice_3": [
-        "data/textures/frosted_ice_3.png"
-    ],
     "gilded_blackstone": [
         "data/textures/gilded_blackstone.png"
     ],
@@ -503,10 +447,6 @@
         "data/textures/hay_block_top.png",
         "data/textures/hay_block_side.png"
     ],
-    "hay_block_horizontal": [
-        "data/textures/hay_block_top.png",
-        "data/textures/hay_block_side.png"
-    ],
     "honeycomb_block": [
         "data/textures/honeycomb_block.png"
     ],
@@ -536,10 +476,6 @@
         "data/textures/jukebox_top.png"
     ],
     "jungle_log": [
-        "data/textures/jungle_log_top.png",
-        "data/textures/jungle_log.png"
-    ],
-    "jungle_log_horizontal": [
         "data/textures/jungle_log_top.png",
         "data/textures/jungle_log.png"
     ],
@@ -627,10 +563,6 @@
         "data/textures/mangrove_log_top.png",
         "data/textures/mangrove_log.png"
     ],
-    "mangrove_log_horizontal": [
-        "data/textures/mangrove_log_top.png",
-        "data/textures/mangrove_log.png"
-    ],
     "mangrove_planks": [
         "data/textures/mangrove_planks.png"
     ],
@@ -697,10 +629,6 @@
         "data/textures/oak_log_top.png",
         "data/textures/oak_log.png"
     ],
-    "oak_log_horizontal": [
-        "data/textures/oak_log_top.png",
-        "data/textures/oak_log.png"
-    ],
     "oak_planks": [
         "data/textures/oak_planks.png"
     ],
@@ -712,10 +640,6 @@
         "data/textures/obsidian.png"
     ],
     "ochre_froglight": [
-        "data/textures/ochre_froglight_top.png",
-        "data/textures/ochre_froglight_side.png"
-    ],
-    "ochre_froglight_horizontal": [
         "data/textures/ochre_froglight_top.png",
         "data/textures/ochre_froglight_side.png"
     ],
@@ -750,10 +674,6 @@
         "data/textures/pearlescent_froglight_top.png",
         "data/textures/pearlescent_froglight_side.png"
     ],
-    "pearlescent_froglight_horizontal": [
-        "data/textures/pearlescent_froglight_top.png",
-        "data/textures/pearlescent_froglight_side.png"
-    ],
     "pink_concrete": [
         "data/textures/pink_concrete.png"
     ],
@@ -768,11 +688,6 @@
     ],
     "pink_wool": [
         "data/textures/pink_wool.png"
-    ],
-    "piston_inventory": [
-        "data/textures/piston_bottom.png",
-        "data/textures/piston_side.png",
-        "data/textures/piston_top.png"
     ],
     "podzol": [
         "data/textures/dirt.png",
@@ -829,10 +744,6 @@
         "data/textures/purpur_pillar_top.png",
         "data/textures/purpur_pillar.png"
     ],
-    "purpur_pillar_horizontal": [
-        "data/textures/purpur_pillar_top.png",
-        "data/textures/purpur_pillar.png"
-    ],
     "quartz_block": [
         "data/textures/quartz_block_top.png",
         "data/textures/quartz_block_side.png"
@@ -841,10 +752,6 @@
         "data/textures/quartz_bricks.png"
     ],
     "quartz_pillar": [
-        "data/textures/quartz_pillar_top.png",
-        "data/textures/quartz_pillar.png"
-    ],
-    "quartz_pillar_horizontal": [
         "data/textures/quartz_pillar_top.png",
         "data/textures/quartz_pillar.png"
     ],
@@ -875,9 +782,6 @@
     "red_concrete_powder": [
         "data/textures/red_concrete_powder.png"
     ],
-    "red_mushroom_block_inventory": [
-        "data/textures/red_mushroom_block.png"
-    ],
     "red_nether_bricks": [
         "data/textures/red_nether_bricks.png"
     ],
@@ -903,31 +807,6 @@
         "data/textures/reinforced_deepslate_side.png",
         "data/textures/reinforced_deepslate_top.png"
     ],
-    "respawn_anchor_0": [
-        "data/textures/respawn_anchor_bottom.png",
-        "data/textures/respawn_anchor_side0.png",
-        "data/textures/respawn_anchor_top_off.png"
-    ],
-    "respawn_anchor_1": [
-        "data/textures/respawn_anchor_bottom.png",
-        "data/textures/respawn_anchor_side1.png",
-        "data/textures/respawn_anchor_top.png"
-    ],
-    "respawn_anchor_2": [
-        "data/textures/respawn_anchor_bottom.png",
-        "data/textures/respawn_anchor_side2.png",
-        "data/textures/respawn_anchor_top.png"
-    ],
-    "respawn_anchor_3": [
-        "data/textures/respawn_anchor_bottom.png",
-        "data/textures/respawn_anchor_side3.png",
-        "data/textures/respawn_anchor_top.png"
-    ],
-    "respawn_anchor_4": [
-        "data/textures/respawn_anchor_bottom.png",
-        "data/textures/respawn_anchor_side4.png",
-        "data/textures/respawn_anchor_top.png"
-    ],
     "rooted_dirt": [
         "data/textures/rooted_dirt.png"
     ],
@@ -946,14 +825,6 @@
         "data/textures/sculk_catalyst_bottom.png",
         "data/textures/sculk_catalyst_side.png",
         "data/textures/sculk_catalyst_top.png"
-    ],
-    "sculk_catalyst_bloom": [
-        "data/textures/sculk_catalyst_bottom.png",
-        "data/textures/sculk_catalyst_side_bloom.png",
-        "data/textures/sculk_catalyst_top_bloom.png"
-    ],
-    "sculk_mirrored": [
-        "data/textures/sculk.png"
     ],
     "sea_lantern": [
         "data/textures/sea_lantern.png"
@@ -985,10 +856,6 @@
     "smooth_stone": [
         "data/textures/smooth_stone.png"
     ],
-    "smooth_stone_slab_double": [
-        "data/textures/smooth_stone.png",
-        "data/textures/smooth_stone_slab_side.png"
-    ],
     "snow_block": [
         "data/textures/snow.png"
     ],
@@ -1008,21 +875,12 @@
         "data/textures/spruce_log_top.png",
         "data/textures/spruce_log.png"
     ],
-    "spruce_log_horizontal": [
-        "data/textures/spruce_log_top.png",
-        "data/textures/spruce_log.png"
-    ],
     "spruce_planks": [
         "data/textures/spruce_planks.png"
     ],
     "spruce_wood": [
         "data/textures/spruce_log.png",
         "data/textures/spruce_log.png"
-    ],
-    "sticky_piston_inventory": [
-        "data/textures/piston_bottom.png",
-        "data/textures/piston_side.png",
-        "data/textures/piston_top_sticky.png"
     ],
     "stone": [
         "data/textures/stone.png"
@@ -1037,10 +895,6 @@
         "data/textures/stripped_acacia_log_top.png",
         "data/textures/stripped_acacia_log.png"
     ],
-    "stripped_acacia_log_horizontal": [
-        "data/textures/stripped_acacia_log_top.png",
-        "data/textures/stripped_acacia_log.png"
-    ],
     "stripped_acacia_wood": [
         "data/textures/stripped_acacia_log.png",
         "data/textures/stripped_acacia_log.png"
@@ -1049,23 +903,7 @@
         "data/textures/stripped_bamboo_block_top.png",
         "data/textures/stripped_bamboo_block.png"
     ],
-    "stripped_bamboo_block_x": [
-        "data/textures/stripped_bamboo_block_top.png",
-        "data/textures/stripped_bamboo_block.png"
-    ],
-    "stripped_bamboo_block_y": [
-        "data/textures/stripped_bamboo_block_top.png",
-        "data/textures/stripped_bamboo_block.png"
-    ],
-    "stripped_bamboo_block_z": [
-        "data/textures/stripped_bamboo_block_top.png",
-        "data/textures/stripped_bamboo_block.png"
-    ],
     "stripped_birch_log": [
-        "data/textures/stripped_birch_log_top.png",
-        "data/textures/stripped_birch_log.png"
-    ],
-    "stripped_birch_log_horizontal": [
         "data/textures/stripped_birch_log_top.png",
         "data/textures/stripped_birch_log.png"
     ],
@@ -1074,18 +912,6 @@
         "data/textures/stripped_birch_log.png"
     ],
     "stripped_cherry_log": [
-        "data/textures/stripped_cherry_log_top.png",
-        "data/textures/stripped_cherry_log.png"
-    ],
-    "stripped_cherry_log_x": [
-        "data/textures/stripped_cherry_log_top.png",
-        "data/textures/stripped_cherry_log.png"
-    ],
-    "stripped_cherry_log_y": [
-        "data/textures/stripped_cherry_log_top.png",
-        "data/textures/stripped_cherry_log.png"
-    ],
-    "stripped_cherry_log_z": [
         "data/textures/stripped_cherry_log_top.png",
         "data/textures/stripped_cherry_log.png"
     ],
@@ -1105,19 +931,11 @@
         "data/textures/stripped_dark_oak_log_top.png",
         "data/textures/stripped_dark_oak_log.png"
     ],
-    "stripped_dark_oak_log_horizontal": [
-        "data/textures/stripped_dark_oak_log_top.png",
-        "data/textures/stripped_dark_oak_log.png"
-    ],
     "stripped_dark_oak_wood": [
         "data/textures/stripped_dark_oak_log.png",
         "data/textures/stripped_dark_oak_log.png"
     ],
     "stripped_jungle_log": [
-        "data/textures/stripped_jungle_log_top.png",
-        "data/textures/stripped_jungle_log.png"
-    ],
-    "stripped_jungle_log_horizontal": [
         "data/textures/stripped_jungle_log_top.png",
         "data/textures/stripped_jungle_log.png"
     ],
@@ -1129,10 +947,6 @@
         "data/textures/stripped_mangrove_log_top.png",
         "data/textures/stripped_mangrove_log.png"
     ],
-    "stripped_mangrove_log_horizontal": [
-        "data/textures/stripped_mangrove_log_top.png",
-        "data/textures/stripped_mangrove_log.png"
-    ],
     "stripped_mangrove_wood": [
         "data/textures/stripped_mangrove_log.png",
         "data/textures/stripped_mangrove_log.png"
@@ -1141,19 +955,11 @@
         "data/textures/stripped_oak_log_top.png",
         "data/textures/stripped_oak_log.png"
     ],
-    "stripped_oak_log_horizontal": [
-        "data/textures/stripped_oak_log_top.png",
-        "data/textures/stripped_oak_log.png"
-    ],
     "stripped_oak_wood": [
         "data/textures/stripped_oak_log.png",
         "data/textures/stripped_oak_log.png"
     ],
     "stripped_spruce_log": [
-        "data/textures/stripped_spruce_log_top.png",
-        "data/textures/stripped_spruce_log.png"
-    ],
-    "stripped_spruce_log_horizontal": [
         "data/textures/stripped_spruce_log_top.png",
         "data/textures/stripped_spruce_log.png"
     ],
@@ -1171,42 +977,6 @@
     ],
     "structure_block": [
         "data/textures/structure_block.png"
-    ],
-    "structure_block_corner": [
-        "data/textures/structure_block_corner.png"
-    ],
-    "structure_block_data": [
-        "data/textures/structure_block_data.png"
-    ],
-    "structure_block_load": [
-        "data/textures/structure_block_load.png"
-    ],
-    "structure_block_save": [
-        "data/textures/structure_block_save.png"
-    ],
-    "suspicious_gravel_0": [
-        "data/textures/suspicious_gravel_0.png"
-    ],
-    "suspicious_gravel_1": [
-        "data/textures/suspicious_gravel_1.png"
-    ],
-    "suspicious_gravel_2": [
-        "data/textures/suspicious_gravel_2.png"
-    ],
-    "suspicious_gravel_3": [
-        "data/textures/suspicious_gravel_3.png"
-    ],
-    "suspicious_sand_0": [
-        "data/textures/suspicious_sand_0.png"
-    ],
-    "suspicious_sand_1": [
-        "data/textures/suspicious_sand_1.png"
-    ],
-    "suspicious_sand_2": [
-        "data/textures/suspicious_sand_2.png"
-    ],
-    "suspicious_sand_3": [
-        "data/textures/suspicious_sand_3.png"
     ],
     "target": [
         "data/textures/target_top.png",
@@ -1230,10 +1000,6 @@
         "data/textures/tuff.png"
     ],
     "verdant_froglight": [
-        "data/textures/verdant_froglight_top.png",
-        "data/textures/verdant_froglight_side.png"
-    ],
-    "verdant_froglight_horizontal": [
         "data/textures/verdant_froglight_top.png",
         "data/textures/verdant_froglight_side.png"
     ],
@@ -1294,5 +1060,32 @@
     ],
     "yellow_wool": [
         "data/textures/yellow_wool.png"
+    ],
+    "frosted_ice": [
+        "data/textures/frosted_ice_0.png"
+    ],
+    "piston": [
+        "data/textures/piston_bottom.png",
+        "data/textures/piston_side.png",
+        "data/textures/piston_top.png"
+    ],
+    "red_mushroom_block": [
+        "data/textures/red_mushroom_block.png"
+    ],
+    "respawn_anchor": [
+        "data/textures/respawn_anchor_bottom.png",
+        "data/textures/respawn_anchor_side0.png",
+        "data/textures/respawn_anchor_top_off.png"
+    ],
+    "sticky_piston": [
+        "data/textures/piston_bottom.png",
+        "data/textures/piston_side.png",
+        "data/textures/piston_top_sticky.png"
+    ],
+    "suspicious_gravel": [
+        "data/textures/suspicious_gravel_0.png"
+    ],
+    "suspicious_sand": [
+        "data/textures/suspicious_sand_0.png"
     ]
 }
