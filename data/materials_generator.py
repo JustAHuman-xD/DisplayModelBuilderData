@@ -33,7 +33,7 @@ def processModel(filepath, process_set, generate):
             process_set.add(texturePath)
 
             if (generate):
-                material_key = filepath[filepath.find("models/"):filepath.find(".json")]
+                material_key = filepath[filepath.find("models\\") + 7:filepath.find(".json")]
                 material_textures = list()
 
                 if (material_key in new_materials):
@@ -100,7 +100,7 @@ def generate_materials():
             os.remove(filepath)
 
     # Actually write to materials.json
-    with open("materials.json", "a") as file:
+    with open("data/materials.json", "w") as file:
         file.write(json.dumps(new_materials, indent=4))
 
 
