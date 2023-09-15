@@ -2,11 +2,13 @@ import json
 import os
 
 new_materials = {}
+parent_files = {}
 files_to_save = set()
 files_to_remove = set()
 
 current_directory = os.getcwd()
 models_directory = os.path.join(current_directory, "data/models")
+parents_directory = os.path.join(current_directory, "data/parents")
 textures_directory = os.path.join(current_directory, "data/textures")
 
 def processModel(filepath, process_set, generate):
@@ -82,6 +84,10 @@ def generate_materials():
                 processModel(filepath, files_to_remove, False)
                 continue
 
+            parent_path = parent[16:] + ".json"
+            parent_files[os.path.join(models_directory, parent_path)] = os.path.join(parents_directory, parent_path)
+            files_to_save.add(parent_path)
+
         processModel(filepath, files_to_save, True)
 
     # Handle any special cases
@@ -128,6 +134,12 @@ def generate_materials():
             filepath = os.path.join(models_directory, key + ".json")
             if (os.path.exists(filepath)):
                 os.remove(filepath)
+
+    # Move parent fiiles
+    for old_path in parent_files:
+        new_path = parent_files[old_path]
+        if (os.path.exists(old_path) and not os.path.exists(new_path)):
+            os.rename(old_path, new_path)
 
     # Remove those not marked to save
     for path in files_to_remove:
