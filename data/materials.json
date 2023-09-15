@@ -386,6 +386,9 @@
     "flowering_azalea_leaves": [
         "data/textures/flowering_azalea_leaves.png"
     ],
+    "frosted_ice": [
+        "data/textures/frosted_ice_0.png"
+    ],
     "gilded_blackstone": [
         "data/textures/gilded_blackstone.png"
     ],
@@ -689,6 +692,11 @@
     "pink_wool": [
         "data/textures/pink_wool.png"
     ],
+    "piston": [
+        "data/textures/piston_bottom.png",
+        "data/textures/piston_side.png",
+        "data/textures/piston_top.png"
+    ],
     "podzol": [
         "data/textures/dirt.png",
         "data/textures/podzol_side.png",
@@ -782,6 +790,9 @@
     "red_concrete_powder": [
         "data/textures/red_concrete_powder.png"
     ],
+    "red_mushroom_block": [
+        "data/textures/red_mushroom_block.png"
+    ],
     "red_nether_bricks": [
         "data/textures/red_nether_bricks.png"
     ],
@@ -806,6 +817,11 @@
         "data/textures/reinforced_deepslate_bottom.png",
         "data/textures/reinforced_deepslate_side.png",
         "data/textures/reinforced_deepslate_top.png"
+    ],
+    "respawn_anchor": [
+        "data/textures/respawn_anchor_bottom.png",
+        "data/textures/respawn_anchor_side0.png",
+        "data/textures/respawn_anchor_top_off.png"
     ],
     "rooted_dirt": [
         "data/textures/rooted_dirt.png"
@@ -881,6 +897,11 @@
     "spruce_wood": [
         "data/textures/spruce_log.png",
         "data/textures/spruce_log.png"
+    ],
+    "sticky_piston": [
+        "data/textures/piston_bottom.png",
+        "data/textures/piston_side.png",
+        "data/textures/piston_top_sticky.png"
     ],
     "stone": [
         "data/textures/stone.png"
@@ -978,6 +999,12 @@
     "structure_block": [
         "data/textures/structure_block.png"
     ],
+    "suspicious_gravel": [
+        "data/textures/suspicious_gravel_0.png"
+    ],
+    "suspicious_sand": [
+        "data/textures/suspicious_sand_0.png"
+    ],
     "target": [
         "data/textures/target_top.png",
         "data/textures/target_side.png"
@@ -1060,32 +1087,5 @@
     ],
     "yellow_wool": [
         "data/textures/yellow_wool.png"
-    ],
-    "frosted_ice": [
-        "data/textures/frosted_ice_0.png"
-    ],
-    "piston": [
-        "data/textures/piston_bottom.png",
-        "data/textures/piston_side.png",
-        "data/textures/piston_top.png"
-    ],
-    "red_mushroom_block": [
-        "data/textures/red_mushroom_block.png"
-    ],
-    "respawn_anchor": [
-        "data/textures/respawn_anchor_bottom.png",
-        "data/textures/respawn_anchor_side0.png",
-        "data/textures/respawn_anchor_top_off.png"
-    ],
-    "sticky_piston": [
-        "data/textures/piston_bottom.png",
-        "data/textures/piston_side.png",
-        "data/textures/piston_top_sticky.png"
-    ],
-    "suspicious_gravel": [
-        "data/textures/suspicious_gravel_0.png"
-    ],
-    "suspicious_sand": [
-        "data/textures/suspicious_sand_0.png"
     ]
 }

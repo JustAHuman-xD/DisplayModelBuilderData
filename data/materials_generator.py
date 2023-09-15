@@ -84,21 +84,6 @@ def generate_materials():
 
         processModel(filepath, files_to_save, True)
 
-    # Remove those not marked to save
-    for path in files_to_remove:
-        if (path in files_to_save):
-            continue
-
-        if (os.path.exists(path)):
-            os.remove(path)
-
-    # Remove any unused textures
-    for filename in os.listdir(textures_directory):
-        filepath = os.path.join(textures_directory, filename)
-
-        if (not filepath in files_to_save and os.path.exists(filepath)):
-            os.remove(filepath)
-
     # Handle any special cases
     with open("data/special_cases.json", "r") as file:
         special_cases = json.load(file)
@@ -114,14 +99,51 @@ def generate_materials():
             new_materials[new_key] = new_materials[old_key]
             new_materials.pop(old_key)
 
+            if (old_key in files_to_save):
+                files_to_save.remove(old_key)
+                files_to_save.add(new_key)
+
+            if (old_key in files_to_remove):
+                files_to_remove.remove(old_key)
+                files_to_remove.add(new_key)
+
+            old_path = os.path.join(models_directory, old_key + ".json")
+            new_path = os.path.join(models_directory, new_key + ".json")
+            if (os.path.exists(old_path) and not os.path.exists(new_path)):
+                os.rename(old_path, new_path)
+
         # Handle Removals
         for key in removals:
             if (not key in new_materials):
                 continue
 
             new_materials.pop(key)
-    
 
+            if (key in files_to_save):
+                files_to_save.remove(key)
+
+            if (key in files_to_remove):
+                files_to_remove.remove(key)
+            
+            filepath = os.path.join(models_directory, key + ".json")
+            if (os.path.exists(filepath)):
+                os.remove(filepath)
+
+    # Remove those not marked to save
+    for path in files_to_remove:
+        if (path in files_to_save):
+            continue
+
+        if (os.path.exists(path)):
+            os.remove(path)
+
+    # Remove any unused textures
+    for filename in os.listdir(textures_directory):
+        filepath = os.path.join(textures_directory, filename)
+
+        if (not filepath in files_to_save and os.path.exists(filepath)):
+            os.remove(filepath)
+    
     # Actually write to materials.json
     with open("data/materials.json", "w") as file:
         file.write(json.dumps(new_materials, indent=4))
