@@ -1,7 +1,7 @@
 {
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "minecraft:block/oak_log",
-    "side": "minecraft:block/oak_log"
-  }
+    "parent": "cube_column.json",
+    "textures": {
+        "end": "oak_log.png",
+        "side": "oak_log.png"
+    }
 }

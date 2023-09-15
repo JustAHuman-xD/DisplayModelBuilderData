@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "minecraft:block/green_wool"
-  }
+    "parent": "cube_all.json",
+    "textures": {
+        "all": "green_wool.png"
+    }
 }

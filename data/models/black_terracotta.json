@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "minecraft:block/black_terracotta"
-  }
+    "parent": "cube_all.json",
+    "textures": {
+        "all": "black_terracotta.png"
+    }
 }

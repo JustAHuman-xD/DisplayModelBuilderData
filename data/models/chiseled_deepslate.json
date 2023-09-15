@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "minecraft:block/chiseled_deepslate"
-  }
+    "parent": "cube_all.json",
+    "textures": {
+        "all": "chiseled_deepslate.png"
+    }
 }

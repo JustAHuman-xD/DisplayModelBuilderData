@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "minecraft:block/spawner"
-  }
+    "parent": "cube_all.json",
+    "textures": {
+        "all": "spawner.png"
+    }
 }

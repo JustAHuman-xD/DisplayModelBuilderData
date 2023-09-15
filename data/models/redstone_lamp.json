@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "minecraft:block/redstone_lamp"
-  }
+    "parent": "cube_all.json",
+    "textures": {
+        "all": "redstone_lamp.png"
+    }
 }

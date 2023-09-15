@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "minecraft:block/fire_coral_block"
-  }
+    "parent": "cube_all.json",
+    "textures": {
+        "all": "fire_coral_block.png"
+    }
 }

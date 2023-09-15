@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "minecraft:block/budding_amethyst"
-  }
+    "parent": "cube_all.json",
+    "textures": {
+        "all": "budding_amethyst.png"
+    }
 }

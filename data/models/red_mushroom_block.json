@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "minecraft:block/red_mushroom_block"
-  }
+    "parent": "cube_all.json",
+    "textures": {
+        "all": "red_mushroom_block.png"
+    }
 }

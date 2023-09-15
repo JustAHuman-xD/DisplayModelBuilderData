@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "minecraft:block/flowering_azalea_leaves"
-  }
+    "parent": "cube_all.json",
+    "textures": {
+        "all": "flowering_azalea_leaves.png"
+    }
 }

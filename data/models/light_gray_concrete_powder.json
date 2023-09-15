@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "minecraft:block/light_gray_concrete_powder"
-  }
+    "parent": "cube_all.json",
+    "textures": {
+        "all": "light_gray_concrete_powder.png"
+    }
 }

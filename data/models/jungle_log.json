@@ -1,7 +1,7 @@
 {
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "minecraft:block/jungle_log_top",
-    "side": "minecraft:block/jungle_log"
-  }
+    "parent": "cube_column.json",
+    "textures": {
+        "end": "jungle_log_top.png",
+        "side": "jungle_log.png"
+    }
 }

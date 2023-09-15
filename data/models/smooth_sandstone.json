@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "minecraft:block/sandstone_top"
-  }
+    "parent": "cube_all.json",
+    "textures": {
+        "all": "sandstone_top.png"
+    }
 }

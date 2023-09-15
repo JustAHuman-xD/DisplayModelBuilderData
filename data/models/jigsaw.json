@@ -1,12 +1,12 @@
 {
-  "parent": "minecraft:block/cube_directional",
-  "textures": {
-    "down": "minecraft:block/jigsaw_side",
-    "east": "minecraft:block/jigsaw_side",
-    "north": "minecraft:block/jigsaw_top",
-    "particle": "minecraft:block/jigsaw_top",
-    "south": "minecraft:block/jigsaw_bottom",
-    "up": "minecraft:block/jigsaw_lock",
-    "west": "minecraft:block/jigsaw_side"
-  }
+    "parent": "cube_directional.json",
+    "textures": {
+        "down": "jigsaw_side.png",
+        "east": "jigsaw_side.png",
+        "north": "jigsaw_top.png",
+        "particle": "jigsaw_top.png",
+        "south": "jigsaw_bottom.png",
+        "up": "jigsaw_lock.png",
+        "west": "jigsaw_side.png"
+    }
 }

@@ -1,7 +1,7 @@
 {
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "minecraft:block/stripped_acacia_log",
-    "side": "minecraft:block/stripped_acacia_log"
-  }
+    "parent": "cube_column.json",
+    "textures": {
+        "end": "stripped_acacia_log.png",
+        "side": "stripped_acacia_log.png"
+    }
 }

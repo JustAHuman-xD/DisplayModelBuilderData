@@ -1,7 +1,7 @@
 import json
 import os
 
-new_materials = {}
+new_materials = []
 parent_files = {}
 files_to_save = set()
 files_to_remove = set()
@@ -14,6 +14,8 @@ textures_directory = os.path.join(current_directory, "data/textures")
 def processModel(filepath, process_set, generate):
     process_set.add(filepath)
 
+    jsonFile = None
+
     with open(filepath, "r") as file:
         jsonFile = json.load(file)
 
@@ -21,8 +23,8 @@ def processModel(filepath, process_set, generate):
             return
 
         textures = jsonFile["textures"]
+        new_textures = {}
         
-        #print("textures: " + str(textures))
         for key in textures:
             path = textures[key]
 
@@ -32,17 +34,19 @@ def processModel(filepath, process_set, generate):
 
             texture = path[16:] + ".png"
             texturePath = os.path.join(textures_directory, texture)
+            new_textures[key] = texture
             process_set.add(texturePath)
 
             if (generate):
                 material_key = filepath[filepath.find("models\\") + 7:filepath.find(".json")]
-                material_textures = list()
 
-                if (material_key in new_materials):
-                    material_textures = new_materials[material_key]
-                
-                material_textures.append("data/textures/" +texture)
-                new_materials[material_key] = material_textures
+                if (not material_key in new_materials):
+                    new_materials.append(material_key)
+
+        jsonFile["textures"] = new_textures
+
+    with open(filepath, "w") as file:
+        file.write(json.dumps(jsonFile, indent=4))
             
 def generate_materials():
     # We need the models directory, create it if it doesn't exist
@@ -71,6 +75,8 @@ def generate_materials():
             files_to_remove.add(filepath)
             continue
 
+        jsonFile = None
+
         with open(filepath, "r") as file:
             jsonFile = json.load(file)
 
@@ -87,6 +93,11 @@ def generate_materials():
             parent_path = parent[16:] + ".json"
             parent_files[os.path.join(models_directory, parent_path)] = os.path.join(parents_directory, parent_path)
             files_to_save.add(parent_path)
+
+            jsonFile["parent"] = parent_path
+        
+        with open(filepath, "w") as file:
+            file.write(json.dumps(jsonFile, indent=4))
 
         processModel(filepath, files_to_save, True)
 

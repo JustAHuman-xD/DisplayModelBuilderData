@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "minecraft:block/netherite_block"
-  }
+    "parent": "cube_all.json",
+    "textures": {
+        "all": "netherite_block.png"
+    }
 }

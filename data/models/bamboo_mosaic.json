@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "minecraft:block/bamboo_mosaic"
-  }
+    "parent": "cube_all.json",
+    "textures": {
+        "all": "bamboo_mosaic.png"
+    }
 }

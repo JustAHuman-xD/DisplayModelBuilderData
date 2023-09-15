@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "minecraft:block/purple_stained_glass"
-  }
+    "parent": "cube_all.json",
+    "textures": {
+        "all": "purple_stained_glass.png"
+    }
 }

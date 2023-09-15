@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "minecraft:block/frosted_ice_0"
-  }
+    "parent": "cube_all.json",
+    "textures": {
+        "all": "frosted_ice_0.png"
+    }
 }

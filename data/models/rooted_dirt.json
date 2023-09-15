@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "minecraft:block/rooted_dirt"
-  }
+    "parent": "cube_all.json",
+    "textures": {
+        "all": "rooted_dirt.png"
+    }
 }

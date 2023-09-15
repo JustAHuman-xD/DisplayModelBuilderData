@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "minecraft:block/suspicious_gravel_0"
-  }
+    "parent": "cube_all.json",
+    "textures": {
+        "all": "suspicious_gravel_0.png"
+    }
 }

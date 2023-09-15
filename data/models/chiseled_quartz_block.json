@@ -1,7 +1,7 @@
 {
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "minecraft:block/chiseled_quartz_block_top",
-    "side": "minecraft:block/chiseled_quartz_block"
-  }
+    "parent": "cube_column.json",
+    "textures": {
+        "end": "chiseled_quartz_block_top.png",
+        "side": "chiseled_quartz_block.png"
+    }
 }

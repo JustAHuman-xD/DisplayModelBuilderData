@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/cube_mirrored_all",
-  "textures": {
-    "all": "minecraft:block/stone"
-  }
+    "parent": "cube_mirrored_all.json",
+    "textures": {
+        "all": "stone.png"
+    }
 }

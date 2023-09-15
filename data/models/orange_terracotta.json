@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "minecraft:block/orange_terracotta"
-  }
+    "parent": "cube_all.json",
+    "textures": {
+        "all": "orange_terracotta.png"
+    }
 }

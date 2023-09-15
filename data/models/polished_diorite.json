@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "minecraft:block/polished_diorite"
-  }
+    "parent": "cube_all.json",
+    "textures": {
+        "all": "polished_diorite.png"
+    }
 }

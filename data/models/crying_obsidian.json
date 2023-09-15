@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "minecraft:block/crying_obsidian"
-  }
+    "parent": "cube_all.json",
+    "textures": {
+        "all": "crying_obsidian.png"
+    }
 }

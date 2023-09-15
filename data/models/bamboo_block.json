@@ -1,7 +1,7 @@
 {
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "minecraft:block/bamboo_block_top",
-    "side": "minecraft:block/bamboo_block"
-  }
+    "parent": "cube_column.json",
+    "textures": {
+        "end": "bamboo_block_top.png",
+        "side": "bamboo_block.png"
+    }
 }

@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "minecraft:block/copper_ore"
-  }
+    "parent": "cube_all.json",
+    "textures": {
+        "all": "copper_ore.png"
+    }
 }

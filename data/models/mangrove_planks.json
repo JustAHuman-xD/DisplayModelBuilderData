@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "minecraft:block/mangrove_planks"
-  }
+    "parent": "cube_all.json",
+    "textures": {
+        "all": "mangrove_planks.png"
+    }
 }

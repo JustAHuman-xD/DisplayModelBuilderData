@@ -1,7 +1,7 @@
 {
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "minecraft:block/stripped_crimson_stem",
-    "side": "minecraft:block/stripped_crimson_stem"
-  }
+    "parent": "cube_column.json",
+    "textures": {
+        "end": "stripped_crimson_stem.png",
+        "side": "stripped_crimson_stem.png"
+    }
 }

@@ -1,7 +1,7 @@
 {
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "minecraft:block/lodestone_top",
-    "side": "minecraft:block/lodestone_side"
-  }
+    "parent": "cube_column.json",
+    "textures": {
+        "end": "lodestone_top.png",
+        "side": "lodestone_side.png"
+    }
 }

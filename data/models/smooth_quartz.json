@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "minecraft:block/quartz_block_bottom"
-  }
+    "parent": "cube_all.json",
+    "textures": {
+        "all": "quartz_block_bottom.png"
+    }
 }

@@ -1,8 +1,8 @@
 {
-  "parent": "minecraft:block/cube_bottom_top",
-  "textures": {
-    "bottom": "minecraft:block/red_sandstone_bottom",
-    "side": "minecraft:block/red_sandstone",
-    "top": "minecraft:block/red_sandstone_top"
-  }
+    "parent": "cube_bottom_top.json",
+    "textures": {
+        "bottom": "red_sandstone_bottom.png",
+        "side": "red_sandstone.png",
+        "top": "red_sandstone_top.png"
+    }
 }

@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "minecraft:block/cracked_polished_blackstone_bricks"
-  }
+    "parent": "cube_all.json",
+    "textures": {
+        "all": "cracked_polished_blackstone_bricks.png"
+    }
 }
