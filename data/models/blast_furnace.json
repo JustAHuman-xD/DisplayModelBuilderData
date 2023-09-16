@@ -1,0 +1,8 @@
+{
+    "parent": "orientable.json",
+    "textures": {
+        "front": "blast_furnace_front.png",
+        "side": "blast_furnace_side.png",
+        "top": "blast_furnace_top.png"
+    }
+}

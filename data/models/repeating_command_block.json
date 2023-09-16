@@ -1,0 +1,8 @@
+{
+    "parent": "template_command_block.json",
+    "textures": {
+        "back": "repeating_command_block_back.png",
+        "front": "repeating_command_block_front.png",
+        "side": "repeating_command_block_side.png"
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "parent": "block.json",
+    "elements": [
+        {
+            "from": [
+                0,
+                0,
+                0
+            ],
+            "to": [
+                16,
+                16,
+                16
+            ],
+            "faces": {
+                "down": {
+                    "texture": "#down",
+                    "cullface": "down"
+                },
+                "up": {
+                    "texture": "#up",
+                    "cullface": "up"
+                },
+                "north": {
+                    "texture": "#north",
+                    "cullface": "north"
+                },
+                "south": {
+                    "texture": "#south",
+                    "cullface": "south"
+                },
+                "west": {
+                    "texture": "#west",
+                    "rotation": 90,
+                    "cullface": "west"
+                },
+                "east": {
+                    "texture": "#east",
+                    "rotation": 90,
+                    "cullface": "east"
+                }
+            }
+        }
+    ],
+    "textures": {
+        "particle": "#side.png",
+        "down": "#side.png",
+        "up": "#side.png",
+        "north": "#end.png",
+        "east": "#side.png",
+        "south": "#end.png",
+        "west": "#side.png"
+    }
+}

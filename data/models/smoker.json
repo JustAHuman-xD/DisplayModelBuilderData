@@ -1,0 +1,9 @@
+{
+    "parent": "orientable_with_bottom.json",
+    "textures": {
+        "bottom": "smoker_bottom.png",
+        "front": "smoker_front.png",
+        "side": "smoker_side.png",
+        "top": "smoker_top.png"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "parent": "orientable_with_bottom.json",
+    "textures": {
+        "bottom": "beehive_end.png",
+        "front": "beehive_front.png",
+        "particle": "beehive_side.png",
+        "side": "beehive_side.png",
+        "top": "beehive_end.png"
+    }
+}

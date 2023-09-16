@@ -1,0 +1,6 @@
+{
+    "parent": "template_glazed_terracotta.json",
+    "textures": {
+        "pattern": "light_blue_glazed_terracotta.png"
+    }
+}

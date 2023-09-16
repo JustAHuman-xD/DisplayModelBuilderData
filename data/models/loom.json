@@ -1,0 +1,9 @@
+{
+    "parent": "orientable_with_bottom.json",
+    "textures": {
+        "bottom": "loom_bottom.png",
+        "front": "loom_front.png",
+        "side": "loom_side.png",
+        "top": "loom_top.png"
+    }
+}

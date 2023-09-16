@@ -1,0 +1,26 @@
+{
+    "parent": "cube_column.json",
+    "display": {
+        "firstperson_righthand": {
+            "rotation": [
+                0,
+                135,
+                0
+            ],
+            "translation": [
+                0,
+                0,
+                0
+            ],
+            "scale": [
+                0.4,
+                0.4,
+                0.4
+            ]
+        }
+    },
+    "textures": {
+        "end": "pumpkin_top.png",
+        "side": "pumpkin_side.png"
+    }
+}

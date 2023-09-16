@@ -1,0 +1,8 @@
+{
+    "parent": "orientable.json",
+    "textures": {
+        "front": "jack_o_lantern.png",
+        "side": "pumpkin_side.png",
+        "top": "pumpkin_top.png"
+    }
+}

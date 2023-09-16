@@ -1,12 +1,12 @@
 {
-    "parent": "block/cube_mirrored",
+    "parent": "cube_mirrored.json",
     "textures": {
-        "particle": "#side",
-        "down": "#end",
-        "up": "#end",
-        "north": "#side",
-        "east": "#side",
-        "south": "#side",
-        "west": "#side"
+        "particle": "#side.png",
+        "down": "#end.png",
+        "up": "#end.png",
+        "north": "#side.png",
+        "east": "#side.png",
+        "south": "#side.png",
+        "west": "#side.png"
     }
 }
