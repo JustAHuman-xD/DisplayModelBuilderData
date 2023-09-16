@@ -11,18 +11,18 @@ models_directory = os.path.join(current_directory, "data/models")
 parents_directory = os.path.join(current_directory, "data/parents")
 textures_directory = os.path.join(current_directory, "data/textures")
 
-def processModel(filepath, process_set, generate):
-    process_set.add(filepath)
+def processModel(file_path, process_set, generate):
+    process_set.add(file_path)
 
-    jsonFile = None
+    json_file = None
 
-    with open(filepath, "r") as file:
-        jsonFile = json.load(file)
+    with open(file_path, "r") as file:
+        json_file = json.load(file)
 
-        if (not "textures" in jsonFile):
+        if (not "textures" in json_file):
             return
 
-        textures = jsonFile["textures"]
+        textures = json_file["textures"]
         new_textures = {}
         
         for key in textures:
@@ -33,20 +33,27 @@ def processModel(filepath, process_set, generate):
                 continue
 
             texture = path[16:] + ".png"
-            texturePath = os.path.join(textures_directory, texture)
+            texture_path = os.path.join(textures_directory, texture)
             new_textures[key] = texture
-            process_set.add(texturePath)
+            process_set.add(texture_path)
 
             if (generate):
-                material_key = filepath[filepath.find("models\\") + 7:filepath.find(".json")]
+                material_key = file_path[file_path.find("models\\") + 7:file_path.find(".json")]
 
                 if (not material_key in new_materials):
                     new_materials.append(material_key)
 
-        jsonFile["textures"] = new_textures
+        json_file["textures"] = new_textures
 
-    with open(filepath, "w") as file:
-        file.write(json.dumps(jsonFile, indent=4))
+    with open(file_path, "w") as file:
+        file.write(json.dumps(json_file, indent=4))
+
+def check_parent(json_file):
+    parent = json_file["parent"]
+
+    if (parent.startswith("minecraft:block/cube")):
+        return True
+    return 
             
 def generate_materials():
     # We need the models directory, create it if it doesn't exist
@@ -67,39 +74,39 @@ def generate_materials():
 
     # Time to start actually making materials.json :D
     # The steps to this are pretty simple, go through all of the models provided, read the json file and check if its a cube model, if it aint, throw it and all relevant textures away
-    for filename in os.listdir(models_directory):
+    for file_name in os.listdir(models_directory):
 
-        filepath = os.path.join(models_directory, filename)
+        file_path = os.path.join(models_directory, file_name)
 
-        if (not os.path.isfile(filepath)):
-            files_to_remove.add(filepath)
+        if (not os.path.isfile(file_path)):
+            files_to_remove.add(file_path)
             continue
 
-        jsonFile = None
+        json_file = None
 
-        with open(filepath, "r") as file:
-            jsonFile = json.load(file)
+        with open(file_path, "r") as file:
+            json_file = json.load(file)
 
-            if (not "parent" in jsonFile):
-                processModel(filepath, files_to_remove, False)
+            if (not "parent" in json_file):
+                processModel(file_path, files_to_remove, False)
                 continue
 
-            parent = jsonFile["parent"]
+            parent = json_file["parent"]
 
-            if (not parent.startswith("minecraft:block/cube")):
-                processModel(filepath, files_to_remove, False)
+            if (not check_parent(json_file)):
+                processModel(file_path, files_to_remove, False)
                 continue
 
             parent_path = parent[16:] + ".json"
             parent_files[os.path.join(models_directory, parent_path)] = os.path.join(parents_directory, parent_path)
             files_to_save.add(parent_path)
 
-            jsonFile["parent"] = parent_path
+            json_file["parent"] = parent_path
         
-        with open(filepath, "w") as file:
-            file.write(json.dumps(jsonFile, indent=4))
+        with open(file_path, "w") as file:
+            file.write(json.dumps(json_file, indent=4))
 
-        processModel(filepath, files_to_save, True)
+        processModel(file_path, files_to_save, True)
 
     # Handle any special cases
     with open("data/special_cases.json", "r") as file:
@@ -142,9 +149,9 @@ def generate_materials():
             if (key in files_to_remove):
                 files_to_remove.remove(key)
             
-            filepath = os.path.join(models_directory, key + ".json")
-            if (os.path.exists(filepath)):
-                os.remove(filepath)
+            file_path = os.path.join(models_directory, key + ".json")
+            if (os.path.exists(file_path)):
+                os.remove(file_path)
 
     # Move parent fiiles
     for old_path in parent_files:
@@ -161,11 +168,11 @@ def generate_materials():
             os.remove(path)
 
     # Remove any unused textures
-    for filename in os.listdir(textures_directory):
-        filepath = os.path.join(textures_directory, filename)
+    for file_name in os.listdir(textures_directory):
+        file_path = os.path.join(textures_directory, file_name)
 
-        if (not filepath in files_to_save and os.path.exists(filepath)):
-            os.remove(filepath)
+        if (not file_path in files_to_save and os.path.exists(file_path)):
+            os.remove(file_path)
     
     # Actually write to materials.json
     with open("data/materials.json", "w") as file:
