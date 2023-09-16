@@ -1,12 +1,12 @@
 {
     "parent": "cube_directional.json",
     "textures": {
-        "particle": "#back.png",
-        "down": "#side.png",
-        "up": "#side.png",
-        "north": "#front.png",
-        "east": "#side.png",
-        "south": "#back.png",
-        "west": "#side.png"
+        "particle": "#back",
+        "down": "#side",
+        "up": "#side",
+        "north": "#front",
+        "east": "#side",
+        "south": "#back",
+        "west": "#side"
     }
 }

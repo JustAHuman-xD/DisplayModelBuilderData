@@ -1,12 +1,12 @@
 {
     "parent": "cube.json",
     "textures": {
-        "particle": "#side.png",
-        "down": "#bottom.png",
-        "up": "#top.png",
-        "north": "#side.png",
-        "east": "#side.png",
-        "south": "#side.png",
-        "west": "#side.png"
+        "particle": "#side",
+        "down": "#bottom",
+        "up": "#top",
+        "north": "#side",
+        "east": "#side",
+        "south": "#side",
+        "west": "#side"
     }
 }

@@ -43,12 +43,12 @@
         }
     ],
     "textures": {
-        "particle": "#side.png",
-        "down": "#side.png",
-        "up": "#side.png",
-        "north": "#end.png",
-        "east": "#side.png",
-        "south": "#end.png",
-        "west": "#side.png"
+        "particle": "#side",
+        "down": "#side",
+        "up": "#side",
+        "north": "#end",
+        "east": "#side",
+        "south": "#end",
+        "west": "#side"
     }
 }

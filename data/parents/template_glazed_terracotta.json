@@ -1,7 +1,7 @@
 {
     "parent": "cube.json",
     "textures": {
-        "particle": "#pattern.png"
+        "particle": "#pattern"
     },
     "display": {
         "firstperson_righthand": {

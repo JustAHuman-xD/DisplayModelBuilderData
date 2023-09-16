@@ -163,7 +163,7 @@ def generate_materials():
                 parent = json_file["parent"]
                 json_file["parent"] = parent[parent.rfind("/") + 1:] + ".json"
             
-            if ("textures" in json_file):
+            if ("textures" in json_file and not file_path in parent_files):
                 textures = json_file["textures"]
                 new_textures = {}
 

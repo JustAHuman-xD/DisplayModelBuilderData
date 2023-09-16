@@ -1,6 +1,6 @@
 {
     "parent": "orientable_with_bottom.json",
     "textures": {
-        "bottom": "#top.png"
+        "bottom": "#top"
     }
 }
