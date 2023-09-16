@@ -1,6 +1,8 @@
 {
     "remappings": {
+        "brown_mushroom_block_inventory": "brown_mushroom_block",
         "frosted_ice_0": "frosted_ice",
+        "mushroom_stem_inventory": "mushroom_stem",
         "piston_inventory": "piston",
         "red_mushroom_block_inventory": "red_mushroom_block",
         "respawn_anchor_0": "respawn_anchor",
@@ -31,6 +33,7 @@
         "frosted_ice_2",
         "frosted_ice_3",
         "furnace_on",
+        "grass_block_snow",
         "hay_block_horizontal",
         "jungle_log_horizontal",
         "mangrove_log_horizontal",
