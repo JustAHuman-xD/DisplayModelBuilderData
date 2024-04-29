@@ -1,0 +1,8 @@
+{
+    "parent": "cube_bottom_top.json",
+    "textures": {
+        "top": "grass_block_top.png",
+        "side": "grass_block_side.png",
+        "bottom": "dirt.png"
+    }
+}

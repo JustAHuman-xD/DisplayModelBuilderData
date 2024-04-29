@@ -1,5 +1,6 @@
 import json
 import os
+import shutil
 
 new_materials = []
 parent_files = {}
@@ -9,6 +10,7 @@ files_to_remove = set()
 models_directory = "data/models/"
 parents_directory = "data/parents/"
 textures_directory = "data/textures/"
+manual_directory = "data/manual/"
 
 def processModel(file_path, process_set, add_to_materials):
     if (file_path in parent_files):
@@ -140,6 +142,14 @@ def generate_materials():
             
             if (os.path.exists(model_key)):
                 os.remove(model_key)
+
+    # Handle any Manual Materials
+    for file_name in os.listdir(manual_directory):
+        file_path = manual_directory + file_name
+        if (file_name.endswith(".json")):
+            shutil.copyfile(file_path, models_directory + file_name)
+        elif (file_name.endswith(".png")):
+            shutil.copyfile(file_path, textures_directory + file_name)
 
     # Remove those marked to remove
     for path in files_to_remove:
